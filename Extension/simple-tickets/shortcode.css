@@ -1,0 +1,76 @@
+#gbl_smtcks_clear table {
+	width: 100%;
+	border: 1px SOLID #DDD;
+	margin: 5px;
+}
+
+#gbl_smtcks_clear table tr td, #gbl_smtcks_clear table tr th {
+	background: #F6F6F6;
+	height: 29px;
+	line-height: 29px;
+	border: 1px solid #666;
+}
+
+#gbl_smtcks_clear table thead tr th {
+	background: #E1EFF1;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+
+#gbl_smtcks_clear table tbody tr:hover td {
+	background: #FDFCF6;
+}
+
+#gbl_smtcks_clear table .action {
+	text-align: right;
+	padding: 0 20px 0 10px;
+}
+
+#gbl_smtcks_clear table tr .action a {
+	margin: 0 0 0 10px;
+	text-decoration: none;
+	color: #9B9B9B;
+}
+
+#gbl_smtcks_clear table tr:hover .action .edit {
+	color: #C5A059;
+}
+
+#gbl_smtcks_clear table tr:hover .action .delete {
+	color: #A02B2B;
+}
+
+#gbl_smtcks_clear table tr:hover .action .view {
+	color: #55A34A;
+}
+
+#gbl_smtcks_clear table tr:hover .action a:hover {
+	text-decoration: underline;
+}
+
+#gbl_smtcks_clear .btn {
+	margin: 5px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	padding: .5em 2em .55em;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	color: #fff;
+	font-weight: bold;
+	border: solid 1px #0076a3;
+	background: #337ab7;
+}
+#gbl_smtcks_clear .btn:hover {
+	text-decoration: none;
+	background: #007ead;
+}
+#gbl_smtcks_clear .btn:active {
+	position: relative;
+	top: 1px;
+	color: white;
+	background: #448bc8;
+}

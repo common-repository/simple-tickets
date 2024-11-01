@@ -1,0 +1,1 @@
+This folder will contain new items available for this plugin!

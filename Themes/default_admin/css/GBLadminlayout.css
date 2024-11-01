@@ -1,0 +1,499 @@
+/*******GBLadmin.css ********
+* Screen Style Sheet
+* Name: Globel Admin CSS
+* Coded by: Globel
+http://www.globel.co.uk
+
+****************************/
+/* Basic  ---------------------------------------- */
+.clear {
+	clear: both;
+}
+
+body {
+	background: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #646464;
+
+}
+
+#bordermain {
+	margin-left: 30%;
+	margin-top: 10px;
+	
+}
+
+#bordermain1 {
+	margin: 10px;
+}
+
+#wrapper {
+	text-align: left;
+	width: 99%;
+	margin: 0 auto;
+}
+
+/* Main Navigation ---------------------------------------- */
+#TopNavMenu {
+	float: left;
+	width: 100%;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+#TopNavMenu li {
+	float: left;
+
+
+	padding-left: 5px;
+}
+
+#TopNavMenu li a {
+
+	float: left;
+
+	font-weight: bold;
+	line-height: 37px;
+	text-decoration: none;
+	color: #646464;
+	padding: 0 20px;
+	border: 1px solid #DDD;
+}
+
+#TopNavMenu li.logout {
+	float: right;
+	border-left: 1px solid #DDD;
+	border-right: none;
+}
+
+#TopNavMenu li a:hover {
+	color: #fff;
+	background: #286090;
+}
+
+#TopNavMenu li a.active,
+#TopNavMenu li a.active {
+
+	background-color: #337ab7;
+	color: #fff;
+}
+
+/* Container ---------------------------------------- */
+#containerHolder {
+	background: #EEE;
+	padding: 5px;
+	float: left;
+	width: 99%;
+}
+
+#container {
+	background: #FFF url(../images/content.gif) repeat-y left top;
+	border: 1px solid #DDD;
+}
+
+/* Sidebar ---------------------------------------- */
+#sidebar {
+	float: left;
+}
+
+#sidebar .SideNavMenu {
+	width: 179px;
+}
+
+#sidebar .SideNavMenu li {
+	border-bottom: 1px solid #DDD;
+	width: 179px;
+}
+
+#sidebar .SideNavMenu li a {
+	display: block;
+	color: #646464;
+	background: #F6F6F6;
+	text-decoration: none;
+	height: 29px;
+	line-height: 29px;
+	padding: 0 19px;
+	width: 141px;
+}
+
+#sidebar .SideNavMenu li a:hover {
+	color: #fff;
+	background: #286090;
+}
+
+#sidebar .SideNavMenu li a.active,
+#sidebar .SideNavMenu li a.active:hover {
+	background-color: #337ab7;
+	color: #fff;
+}
+
+/* Breadcrumb ---------------------------------------- */
+h2 {
+	width: 84%;
+	float: right;
+	color: #646464;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #DDD;
+	margin-top: 20px;
+
+
+
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+
+}
+
+h2 a {
+	color: #646464;
+	text-decoration: none;
+}
+
+h2 a.active {
+	color: #085B8D;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+/* Content ---------------------------------------- */
+#main {
+	margin-left: 2px;
+	width: calc(100% - 181px);
+	float: left;
+}
+
+h3 {
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #5494AF;
+	padding: 0 0 0 10px;
+	margin: 20px 0 10px;
+}
+
+#main table {
+	width: 100%;
+	border: 1px SOLID #DDD;
+}
+
+#main table tr td, #main table tr th {
+	background: #F6F6F6;
+	height: 29px;
+	line-height: 29px;
+	border-bottom: 1px solid #DDD;
+}
+
+#main table thead tr th {
+	background: #E1EFF1;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+
+#main table tbody tr:hover td {
+	background: #FDFCF6;
+}
+
+#main table .action {
+	text-align: right;
+	padding: 0 20px 0 10px;
+}
+
+#main table tr .action a {
+	margin: 0 0 0 10px;
+	text-decoration: none;
+	color: #9B9B9B;
+}
+
+#main table tr:hover .action .edit {
+	color: #C5A059;
+}
+
+#main table tr:hover .action .delete {
+	color: #A02B2B;
+}
+
+#main table tr:hover .action .view {
+	color: #55A34A;
+}
+
+#main table tr:hover .action a:hover {
+	text-decoration: underline;
+}
+
+#main fieldset {
+	border: 1px solid #DDD;
+	padding: 19px;
+	margin: 0 0 20px 0;
+	background: #FBFBFB;
+}
+
+#main fieldset p {
+	margin: 0 0 14px 0;
+	float: left;
+	width: 100%;
+}
+
+#main fieldset label {
+	display: block;
+	width: 100%;
+	margin: 0 0 7px 0;
+	line-height: 12px;
+}
+
+#main fieldset .text-long {
+	border: 1px solid #DDD;
+	background: #FFF url(../images/input-shaddow.gif) no-repeat left top;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: auto;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#main fieldset .text-medium {
+	border: 1px solid #DDD;
+	background: #FFF url(../images/input-shaddow.gif) no-repeat left top;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: auto;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#main fieldset .text-small {
+	border: 1px solid #DDD;
+	background: #FFF url(../images/input-shaddow.gif) no-repeat left top;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: auto;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#main fieldset .text-long:focus,
+#main fieldset .text-medium:focus,
+#main fieldset .text-small:focus,
+#main fieldset textarea:focus {
+	background: #FDFCF6 url(../images/input-shaddow-hover.gif) no-repeat left top;
+}
+
+#main fieldset textarea {
+	border: 1px solid #DDD;
+	background: #FFF url(../images/input-shaddow.gif) no-repeat left top;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: auto;
+	float: left;
+	margin: 0 10px 0 0;
+	height: 148px;
+	overflow: hidden;
+}
+
+.button-submit {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	width: auto;
+	height: 29px;
+	cursor: pointer;
+	border: none;
+	background: url(../images/button-submit.gif) no-repeat left top;
+}
+
+/* Footer ---------------------------------------- */
+#footer {
+	float: left;
+	width: 100%;
+	margin: 10px 0 30px 0;
+	font-size: 11px;
+	line-height: 11px;
+	color: #9B9B9B;
+	padding: 0 0 0 5px;
+}
+
+#footer a {
+	color: #9B9B9B;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+
+.btn {
+	margin: 5px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	padding: .5em 2em .55em;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	color: #fff;
+	font-weight: bold;
+	border: solid 1px #0076a3;
+	background: #337ab7;
+}
+.btn:hover {
+	text-decoration: none;
+	background: #007ead;
+}
+.btn:active {
+	position: relative;
+	top: 1px;
+	color: white;
+	background: #448bc8;
+}
+
+#Notification {
+	position: fixed;
+	right: 25%;
+	top: 50px;
+}
+
+#Notification p {
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	border-radius: 25px;
+	padding: 5px;
+	color: white;
+	font-size: 12px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.menuadvertisement 
+{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+	width: 100%;
+	min-width: 100%;
+	min-height: 50px;
+	
+	background: #E1EFF1;
+	border: 0px;
+    /*background-image: url("/wp-content/plugins/simple-tickets/Themes/_general_images/whatsnew/");*/
+/*
+
+height: 100%;
+
+*/
+}
+
+/************************************* start accordion Styley ****************************************/
+.accordion {
+    font-family:Arial, Helvetica, sans-serif; 
+    margin:0 auto;
+    font-size:14px;
+    border:1px solid #a6a6a6;
+    border-radius:2px;
+    width:100%;
+	/*height: 3000 auto; */ /**/
+    padding:2px;
+    background:#fff;
+}
+.accordion ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion li {
+    margin:0;
+    padding:0;
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+    display:none;
+}
+.accordion label {
+    display:block;
+    font-size:16px;
+    line-height:8px;
+    background:#E1EFF1;
+    border:0px solid #a6a6a6;
+    color:#000;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:400;
+    cursor:pointer;
+	/*height: auto;
+    text-transform:uppercase;*/
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+    background:#337ab7;
+    color:#fff;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+	
+
+	
+}
+.accordion .content {
+    padding:0 0px;
+	/* height: 2000px;*/
+    overflow:hidden;
+    border:1px solid #fff; 
+	/*height: auto;
+	 Make the border match the background so it fades in nicely Set our transitions up 1
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;*/
+	
+	/*2? 
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	transition: all 0.8s;
+	*/
+	
+}
+.accordion p {
+    color:#333;
+    margin:0 0 10px;
+}
+.accordion h3 {
+    color:#542437;
+    padding:0;
+    margin:10px 0;
+}
+
+
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:10px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+	
+
+	
+	
+}
+.vertical ul li label:hover {
+    border:0px solid #542437;
+   /*  border:1px solid #542437; We don't want the border to disappear on hover */
+}
+.vertical ul li .content {
+    height:0px;
+    border-top:0;
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+    height:auto;
+    border:1px solid #a6a6a6;
+	overflow: visible;
+}
+/************************************* end accordion Style ****************************************/
